@@ -12,9 +12,9 @@ function Home({ articles, setCountry }) {
         <section className='home'>
             <header>
                 <h2 className='home-header'>SCIENCE NEWS</h2>
-                <img src={rainbow} className='rainbow'/>
-                <img src={cluster2} className='cluster2'/>
-                <img src={cluster1} className='cluster1'/>
+                <img src={rainbow} className='rainbow' />
+                <img src={cluster2} className='cluster2' />
+                <img src={cluster1} className='cluster1' />
             </header>
             <Country setCountry={setCountry} />
             <Articles articles={articles} />

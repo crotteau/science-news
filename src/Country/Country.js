@@ -1,5 +1,5 @@
 import './Country.css'
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 function Country({ setCountry }) {
     const [country, updateCountry] = useState('')
