@@ -1,0 +1,41 @@
+.articles-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: fit-content;
+    width: 95vw;
+    background-color: black;
+    margin-bottom: 5vh;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 0.5em 1em;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    &:hover {
+        background-color: rgb(192, 204, 207);
+    }
+}
+
+.article-info {
+    padding: 0.25em;
+}
+
+.article-title {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.article-date {
+    margin-top: 0em;
+}
+
+.article-image {
+    max-width: 16em;
+    height:fit-content;
+    padding-right: 0.5em;
+}
