@@ -1,0 +1,15 @@
+.change-country {
+   text-align: right;
+
+}
+
+select {
+    height: 5vh;
+    font-size: large;
+    font-weight: bold;
+    margin: 0.5em;
+    background-color: rgb(188, 188, 188);
+    cursor: pointer;
+    box-shadow: 3px 3px 0px 0px black;
+    text-align: center;
+}

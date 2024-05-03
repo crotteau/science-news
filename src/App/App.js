@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Home from '../Home/Home';
 import ArticleDetails from '../ArticleDetails/ArticlesDetails';
@@ -34,7 +34,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home articles={articles} />}></Route>
+          <Route path="/" element={<Home articles={articles} setCountry={setCountry} />}></Route>
           <Route path="/:id" element={<ArticleDetails articles={articles} />}></Route>
         </Routes>
       </BrowserRouter>

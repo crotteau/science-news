@@ -1,16 +1,17 @@
 import './Home.css';
 import React, { useState, useEffect } from 'react';
 import Articles from '../Articles/Articles';
+import Country from '../Country/Country';
 
 
-
-function Home({ articles }) {
+function Home({ articles, setCountry }) {
     const [headliner, setHeadliner] = useState({})
 
    
     return (
         <section className='home'>
             <h2>Science News!!</h2>
+            <Country setCountry={setCountry} />
             <Articles articles={articles} />
         </section>
     )
