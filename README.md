@@ -32,3 +32,4 @@ Due to the time constraints of this project, I focused on creating an MVP and in
 ## Potential Enhancements
 - dynamic CSS for mobile display
 - search feature for more specific science categories
+- testing with Cypress and implementing PropTypes
