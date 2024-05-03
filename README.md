@@ -1,7 +1,7 @@
 # Science News
 
 ## About
-A simple web application that displays top science news headlines. The default is for US news, but there is an option to display top science news from other countries as well.
+A simple web application that displays top science news headlines from [NewsAPI](https://newsapi.org/). The default is for US news, but there is an option to display top science news from other countries as well.
 
 ## Contributor
 - [Megan Crotteau](https://github.com/crotteau)
