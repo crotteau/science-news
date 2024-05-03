@@ -18,15 +18,15 @@ function App() {
   }, [country])
 
   const findArticles = async (country) => {
-    setArticles(scienceArticles.articles)
-    // try {
-    //   const response = await getArticles(country)
-    //   if (response) {
-    //     setArticles(response.articles)
-    //   }
-    // } catch (error) {
-    //   setError(error)
-    // }
+    // setArticles(scienceArticles.articles)
+    try {
+      const response = await getArticles(country)
+      if (response) {
+        setArticles(response.articles)
+      }
+    } catch (error) {
+      setError(error)
+    }
   }
 
 

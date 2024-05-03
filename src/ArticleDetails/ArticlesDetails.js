@@ -42,10 +42,10 @@ function ArticleDetails({ articles }) {
                     <p className='article-details-source'>Source: {a.source.name}</p>
                     <p className='article-details-author'>Author: {a.author}</p>
                     <p className='article-details-date'>Date Published: {getDate(a.publishedAt)}</p>
+                    <a href={a.url} className='article-details-url'>View Full Article</a>
                 </div>
             </section>
             <p className='article-details-content'>{a.content}</p>
-            <a href={a.url} className='article-details-url'>View Full Article</a>
             <button onClick={() => { navigate('/') }}> Go Back </button>
         </article>
     )
