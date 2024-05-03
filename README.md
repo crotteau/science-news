@@ -24,9 +24,11 @@ If you are cloning this to your computer, you'll need an API key. Requesting one
 
   
 ## Background
- 
+The goal of this project was to simulate a code challenge I may encounter during the interview process. I spent ~8hrs creating a React app that displays news articles, article details, and implemented a feature that fetched new data based on user input. 
 
 ## Challenges and Wins
+Due to the time constraints of this project, I focused on creating an MVP and initially found I had to scale back the scope of my application. Ultimately, I was able to create an application that is easy to use and showcases a basic React app with multi-page UI.
 
-
-## Future Directions 
+## Potential Enhancements
+- dynamic CSS for mobile display
+- search feature for more specific science categories
