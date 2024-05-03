@@ -39,9 +39,9 @@ function ArticleDetails({ articles }) {
             <section className='article-details-info'>
                 <img src={a.urlToImage ? a.urlToImage : waves} alt='article-details-image' className='article-details-image' />
                 <div>
-                    <p className='article-details-date'>Date: {getDate(a.publishedAt)}</p>
                     <p className='article-details-source'>Source: {a.source.name}</p>
                     <p className='article-details-author'>Author: {a.author}</p>
+                    <p className='article-details-date'>Date Published: {getDate(a.publishedAt)}</p>
                 </div>
             </section>
             <p className='article-details-content'>{a.content}</p>

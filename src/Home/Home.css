@@ -1,0 +1,35 @@
+header {
+    height: 30vh;
+    width: 95vw;
+    font-family: "Ojuju", sans-serif;
+    display: flex;
+    margin-top: 5vh;
+    align-items: center;
+    color: black
+}
+
+.home-header {
+    font-size: 5em;
+    background-color: white;
+    border-style: solid;
+    padding: 0.1em;
+}
+
+.cluster2, .rainbow {
+    width: 30vw;
+}
+
+.cluster2 {
+    margin-left: 1em;
+}
+
+.cluster1 {
+    width: 32vw;
+    margin-top: 5em;
+}
+
+
+.rainbow {
+    position: absolute;
+    z-index: -1;
+}

@@ -32,6 +32,7 @@ function App() {
 
   return (
     <div className="App">
+       {error && <h2 className="error">{error.message}</h2>}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home articles={articles} setCountry={setCountry} />}></Route>

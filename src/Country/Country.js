@@ -62,7 +62,7 @@ function Country({ setCountry }) {
 
     const options = countryOptions.map(option => {
         return (
-            <option value={option.code}>{option.country}</option>
+            <option value={option.code} key={option.code}>{option.country}</option>
         )
     })
 
