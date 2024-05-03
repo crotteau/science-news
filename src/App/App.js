@@ -1,7 +1,8 @@
 import './App.css';
+import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Home from '../Home/Home';
-import Articles from '../Articles/Articles';
+import ArticleDetails from '../ArticleDetails/ArticlesDetails';
 import scienceArticles from '../mockdata';
 import { getArticles } from '../apiCalls';
 
@@ -31,8 +32,12 @@ function App() {
 
   return (
     <div className="App">
-      <Home articles={articles} />
-      <Articles articles={articles} />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home articles={articles} />}></Route>
+          <Route path="/:id" element={<ArticleDetails articles={articles} />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

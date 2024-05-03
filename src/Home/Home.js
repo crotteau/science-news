@@ -1,5 +1,6 @@
 import './Home.css';
 import React, { useState, useEffect } from 'react';
+import Articles from '../Articles/Articles';
 
 
 
@@ -10,6 +11,7 @@ function Home({ articles }) {
     return (
         <section className='home'>
             <h2>Science News!!</h2>
+            <Articles articles={articles} />
         </section>
     )
 }
