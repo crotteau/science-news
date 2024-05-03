@@ -1,6 +1,7 @@
 import './Articles.css';
 import moment from 'moment';
 import React, { useState, useEffect } from 'react';
+import waves from '../assets/waves.png'
 
 function Articles({ articles }) {
     const [homeNews, setHomeNews] = useState([])
@@ -9,8 +10,8 @@ function Articles({ articles }) {
         showArticles()
     }, [articles])
 
-    const getDate = (article) => {
-        const date = moment.utc(article.publishedAt).format('MMMM Do, YYYY h:mma')
+    const getDate = (articleDate) => {
+        var date = moment(articleDate).format('MMMM Do, YYYY h:mma')
         return date
     }
 
@@ -18,7 +19,7 @@ function Articles({ articles }) {
         const allArticles = articles.map((article) => {
             return (
                 <div className='article' key={article.publishedAt}>
-                    <img src={article.urlToImage} alt='article-image' className='article-image' />
+                    <img src={article.urlToImage ? article.urlToImage : waves} alt='article-image' className='article-image' />
                     <section className='article-info'>
                         <p className='article-title'>{article.title}</p>
                         <p className='article-date'>{getDate(article.publishedAt)}</p>
@@ -31,9 +32,9 @@ function Articles({ articles }) {
     }
 
     return (
-        <React.Fragment>
+        <article className='articles-container'>
             {homeNews}
-        </React.Fragment>
+    </article>
     )
 }
 

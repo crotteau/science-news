@@ -1,5 +1,4 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Home from '../Home/Home';
 import Articles from '../Articles/Articles';
@@ -32,10 +31,8 @@ function App() {
 
   return (
     <div className="App">
-  
-        <Home articles={articles} />
-        <Articles articles={articles} />
-
+      <Home articles={articles} />
+      <Articles articles={articles} />
     </div>
   );
 }
