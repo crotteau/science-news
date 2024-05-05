@@ -1,9 +1,9 @@
 header {
-    height: 22vh;
+    height: 20vh;
     width: 40vw;
     font-family: "Ojuju", sans-serif;
     display: flex;
-    margin-top: 5vh;
+    margin-top: 2vh;
     align-items: center;
     color: black;
     background-size: contain;
@@ -14,11 +14,5 @@ header {
     background-color: white;
     border-style: solid;
     padding: 0.1em 0.2em;
-}
-
-.rainbow {
-    position: absolute;
-    height: 30vh;
-    width: 30vw;
-    z-index: -1;
+    margin: 1vh;
 }

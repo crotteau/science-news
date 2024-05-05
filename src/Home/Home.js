@@ -10,7 +10,6 @@ function Home({ articles, setCountry }) {
         <section className='home'>
             <header style={{ backgroundImage: `url(${rainbow})` }}>
                 <h2 className='home-header'>SCIENCE NEWS</h2>
-                <img src={rainbow} className='rainbow' />
             </header>
             <Country setCountry={setCountry} />
             <Articles articles={articles} />
