@@ -7,7 +7,7 @@ A simple web application that displays top science news headlines from [NewsAPI]
 - [Megan Crotteau](https://github.com/crotteau)
 
 ## Preview
-<img width="1662" alt="Screenshot 2024-05-03 at 5 17 52 PM" src="https://github.com/crotteau/science-news/assets/149750476/23663493-7246-4963-b3c2-947ce4b29ca0">
+<img width="1665" alt="Screenshot 2024-05-05 at 1 12 56 PM" src="https://github.com/crotteau/science-news/assets/149750476/e14ba6e8-c879-4c24-8f0d-3a641dd39db2">
 <img width="1676" alt="Screenshot 2024-05-03 at 5 18 10 PM" src="https://github.com/crotteau/science-news/assets/149750476/4021fa97-5e5a-4ded-8295-59e6c5d66c71">
 
 
